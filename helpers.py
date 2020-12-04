@@ -24,3 +24,25 @@ def readlines(file_path: str, strip_newline_char: bool = True) -> list:
             lines = f.readlines()
 
     return lines
+
+def readfile(file_path: str) -> str:
+    """Reads the file and 
+    returns its contents as a string
+    without any modification
+
+    Parameters
+    ----------
+    file_path : str
+        The path of the file to read
+    
+    Returns
+    -------
+    data : str
+        The string representation of the file
+    """
+
+    with open(file_path) as f:
+
+        data = f.read()
+
+    return data

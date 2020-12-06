@@ -3,7 +3,7 @@ from helpers import readlines
 def main():
     """Day3 solution"""
 
-    data = readlines('day3_input.txt')
+    data = readlines('inputs/day3_input.txt')
 
     part1_solution = traverse_map(data, right_step=3, down_step=1)
     part2_solution = part2(data)

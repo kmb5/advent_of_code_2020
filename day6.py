@@ -3,7 +3,7 @@ from helpers import readfile
 def main():
     """Day 6 solution"""
 
-    data = readfile('day6_input.py')
+    data = readfile('inputs/day6_input.txt')
 
     part1_solution = part1(data)
     part2_solution = part2(data)

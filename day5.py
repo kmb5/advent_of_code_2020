@@ -4,7 +4,7 @@ from helpers import readlines
 def main():
     """Solution for day 5."""
 
-    data = readlines('day5_input.txt')
+    data = readlines('inputs/day5_input.txt')
     seats = _calculate_seat_ids(data)
     seat_ids = [s['seat_id'] for s in seats]
 

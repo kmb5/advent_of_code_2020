@@ -3,7 +3,7 @@ from helpers import readlines
 def main():
     """Main function for the day2 challenge"""
 
-    data = readlines('day2_input.txt')
+    data = readlines('inputs/day2_input.txt')
 
     part1_solution = part1(data)
     part2_solution = part2(data)

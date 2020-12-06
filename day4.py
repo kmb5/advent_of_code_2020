@@ -4,7 +4,7 @@ from helpers import readfile
 def main():
     """Day 4 solution"""
 
-    data = readfile('day4_input.txt')
+    data = readfile('inputs/day4_input.txt')
     passports = parse_passports(data)
 
     part1_solution = part1(passports)
